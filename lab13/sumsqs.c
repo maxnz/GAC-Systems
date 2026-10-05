@@ -1,4 +1,4 @@
-/* sumsqs.c - example of iteration in C language.  Richard Brown 9/2010 */
+/* sumsqs.c - example of iteration in C language.  Richard Brown 9/10/2019 */
 
 #include <stdio.h>
 
