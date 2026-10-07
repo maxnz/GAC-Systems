@@ -1,4 +1,4 @@
-  .arch armv6
+    .arch armv6
 	.fpu vfp
 	.eabi_attribute 28, 1
 	.eabi_attribute 20, 1
