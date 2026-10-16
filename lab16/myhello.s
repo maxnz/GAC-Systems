@@ -12,7 +12,7 @@ hello:                                  @ format string for printf
         .align  2
         .global main
 main:
-        push    {fp, lr}                @ setup stack frame
+        push    {fp, lr}                @ set up stack frame
         add     fp, sp, #4
         sub     sp, sp, #8              
 
