@@ -40,12 +40,12 @@ main:
 	pop	{fp, pc}
 
 /* pointer variables for locations in .rodata and .data sections */
-	.align	2
+		.align	2
 buffP:	.word	buff
 promptP: .word	prompt
 	
 
 /* string variable */
-	.data
-	.align	2
+		.data
+		.align	2
 buff:	.skip	100		@ array of char for input via get_line()
