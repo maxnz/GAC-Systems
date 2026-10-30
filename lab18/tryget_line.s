@@ -1,7 +1,7 @@
 /* tryget_line.s - ARM assembly example of calling s1lib function get_line
    If s1lib.s is in your directory, you can assemble and test this program using
 
-	gcc -o tryget_line tryget_line.s hdlib.s
+	gcc -o tryget_line tryget_line.s s1lib.s
 	./tryget_line
 
    RAB 10/2020 */
